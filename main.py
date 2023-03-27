@@ -1,8 +1,6 @@
 import pygame
 import sys
 
-#importing my button class
-import button
 
 pygame.init()
 
@@ -17,6 +15,8 @@ running = True
 #font from sysfont
 font = pygame.font.SysFont('comicsansms',30)
 
+#button color
+buttonColor = (70,80,90)
 #Game Loop for each event
 # adding sys.exit gets rid of the video system not initialized error
 while True:
@@ -25,4 +25,8 @@ while True:
             pygame.quit()
             sys.exit()
     screen.fill((0,0,55))
+    
+    mouse = pygame.mouse.get_pos()
+    
+    pygame.draw.circle(screen,buttonColor, (360,520), 80.0)
     pygame.display.update()
