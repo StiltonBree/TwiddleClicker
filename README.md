@@ -8,4 +8,4 @@ Currently you only need TwiddleClick.zip, unzip that file in a separate folder, 
 You can play TwiddleClicker right now!
 
 ## The Bad News
-Only for MacOS users
+Only for MacOS users. UNLESS you download python3 onto your system and run main.py using python3 main.py
