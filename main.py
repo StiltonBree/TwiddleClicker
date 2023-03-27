@@ -1,6 +1,9 @@
 import pygame
 import sys
 
+#importing my button class
+import button
+
 pygame.init()
 
 #initial window dimensions
