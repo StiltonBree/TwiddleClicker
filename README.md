@@ -4,4 +4,8 @@ Making a clicker game in pygame, currently able to click the button to increase 
 ## How to Run
 Currently you only need TwiddleClick.zip, unzip that file in a separate folder, go into TwiddleClick, then from the terminal run ./main
 
-Right now TwiddleClick.zip only runs on MacOS, I have attempted to build for Windows via TwiddleWin.zip
+## The Good News
+You can play TwiddleClicker right now!
+
+## The Bad News
+Only for MacOS users
