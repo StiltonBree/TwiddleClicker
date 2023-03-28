@@ -1,6 +1,6 @@
 import cx_Freeze
 
-executables = [cx_Freeze.Executable("main.py")]
+executables = [cx_Freeze.Executable("main.py",icon = "hamrocks.png")]
 
 cx_Freeze.setup(
     name="Twiddle Clicker",
